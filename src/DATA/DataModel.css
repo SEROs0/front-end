@@ -1,0 +1,42 @@
+
+.box {
+    background-color: #012030;
+    height: 40rem;
+    width:21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%),1fr));
+    grid-gap: 1rem;
+   margin-top: 100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 25rem;
+    border-radius: 25px; 
+  }
+
+  .content img {
+    width: 18rem;
+    
+  }
+
+.text {
+ margin: 28rem 0 0 0 ;
+ gap: 1rem;
+}
+
+ 
+
+  
